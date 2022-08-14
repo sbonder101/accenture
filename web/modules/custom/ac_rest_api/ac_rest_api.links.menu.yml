@@ -1,0 +1,6 @@
+ac_rest_api.settings_form:
+  title: 'AC REST API'
+  description: 'Configure AC REST API.'
+  parent: system.admin_config_system
+  route_name: ac_rest_api.settings_form
+  weight: 10

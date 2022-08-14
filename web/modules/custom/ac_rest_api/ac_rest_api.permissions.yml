@@ -1,0 +1,4 @@
+administer ac_rest_api configuration:
+  title: 'Administer ac_rest_api configuration'
+  description: 'Optional description.'
+  restrict access: true

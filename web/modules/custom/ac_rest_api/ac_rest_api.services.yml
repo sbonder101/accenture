@@ -1,0 +1,6 @@
+services:
+  ac_rest_api.event_subscriber:
+    class: Drupal\ac_rest_api\EventSubscriber\AcRestApiSubscriber
+    arguments: ['@messenger']
+    tags:
+      - { name: event_subscriber }
